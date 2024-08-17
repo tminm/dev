@@ -7,8 +7,19 @@ export const DynamicWrapper = styled.div`
     line-height: 2;
     position: relative;
     padding: 20px 20px;
-    border: 4px solid #fff;
     box-sizing: border-box;
+    border: 5px solid transparent;
+    border-image-slice: 1;
+    animation: rotateGradient 3s linear infinite;
+  }
+
+  @keyframes rotateGradient {
+    0% {
+      border-image-source: linear-gradient(45deg, #f06, #4a90e2);
+    }
+    100% {
+      border-image-source: linear-gradient(405deg, #f06, #4a90e2);
+    }
   }
   .eraser {
     position: absolute;
@@ -24,7 +35,7 @@ export const DynamicWrapper = styled.div`
     background: linear-gradient(
       to right,
       #0000 var(--p),
-      #99c8f0 calc(var(--p) + 100px)
+      #ddefb9 calc(var(--p) + 100px)
     );
     color: transparent;
     animation: erase 5s forwards;
