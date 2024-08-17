@@ -1,0 +1,18 @@
+/* 默认亮色主题 */
+:root {
+  --text-color: #333;
+  --bg1: hsl(144, 100%, 89%);
+  --bg2: hsl(42, 94%, 76%);
+  /* 公告栏 */
+  --bg3: #99c8f0;
+  --text-color2: #fff;
+}
+
+/* 暗色主题 */
+html[data-theme="dark"] {
+  --text-color: #fff;
+  --bg1: hsl(198, 44%, 11%);
+  --bg2: hsl(198, 39%, 29%);
+  --bg3: #5a5b60;
+  --text-color2: #333;
+}
