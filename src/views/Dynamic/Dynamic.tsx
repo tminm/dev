@@ -34,6 +34,18 @@ const Dynamic = memo((props) => {
           image={cdnImage}
           text={text1}
         ></DynamicCard>
+
+        <DynamicCard
+          title="盗刷CDN"
+          image={cdnImage}
+          text={text1}
+        ></DynamicCard>
+
+        <DynamicCard
+          title="盗刷CDN"
+          image={cdnImage}
+          text={text1}
+        ></DynamicCard>
       </div>
     </DynamicWrapper>
   );

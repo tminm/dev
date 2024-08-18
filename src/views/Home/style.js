@@ -14,6 +14,7 @@ export const Homewrapper = styled.div`
     margin-top: 10px;
     width: 1180px;
     margin: 30px auto;
+    min-width: 600px;
   }
 
   .container {
