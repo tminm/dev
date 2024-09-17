@@ -1,7 +1,5 @@
 import React, { memo } from "react";
 import { DynamicWrapper } from "./style";
-import themeImage from "../../assets/images/argontheme.png";
-import PageCard from "../../components/PageCard/PageCard";
 import DynamicCard from "../../components/DynamicCard/DynamicCard";
 import cdnImage from "../../assets/images/dscdn.png";
 const Dynamic = memo((props) => {

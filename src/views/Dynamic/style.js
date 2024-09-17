@@ -35,7 +35,7 @@ export const DynamicWrapper = styled.div`
     background: linear-gradient(
       to right,
       #0000 var(--p),
-      #ddefb9 calc(var(--p) + 100px)
+      #cdfad3 calc(var(--p) + 100px)
     );
     color: transparent;
     animation: erase 5s forwards;

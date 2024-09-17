@@ -32,7 +32,7 @@ export const AsideWrapper = styled.div`
     font-size: 15px;
     border-radius: 20px 20px 0 0;
     background-color: var(--bg3);
-    color: var(--text-color2);
+    color: var(--text-color1);
     margin-top: 20px;
     padding: 25px 25px;
     box-sizing: border-box;

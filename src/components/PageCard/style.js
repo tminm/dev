@@ -5,7 +5,6 @@ export const PageCardWrapper = styled.div`
     width: 888px;
     height: 350px;
     margin-top: 20px;
-    /* background-color: skyblue; */
     border: 4px solid #fff;
     border-radius: 20px;
   }
