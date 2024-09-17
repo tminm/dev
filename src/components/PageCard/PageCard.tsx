@@ -5,14 +5,14 @@ import { PageCardWrapper } from "./style";
 // 定义属性类型
 interface PageCardProps {
   title: string;
-  image: string;
+  image?: string;
 }
 
 const PageCard: FC<PageCardProps> = ({ title, image }) => {
   return (
     <PageCardWrapper>
       <div className="imghtml">
-        <img className="image" src={image} alt="html" />
+        {image && <img className="image" src={image} alt="html" />}
         <div className="title">
           <span>{title}</span>
         </div>

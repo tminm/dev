@@ -13,7 +13,7 @@ export const Homewrapper = styled.div`
     display: flex;
     margin-top: 10px;
     width: 1180px;
-    margin: 30px auto;
+    margin: 0px auto;
     min-width: 600px;
   }
 
@@ -25,7 +25,6 @@ export const Homewrapper = styled.div`
     width: 1180px;
     height: 100px;
     margin: 0px auto;
-    /* padding-top: 200px; */
     margin-bottom: 10px;
     text-align: center;
   }
